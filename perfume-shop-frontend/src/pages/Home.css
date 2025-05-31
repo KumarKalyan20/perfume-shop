@@ -1,0 +1,14 @@
+/* Home.css */
+.home-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+}

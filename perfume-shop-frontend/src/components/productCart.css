@@ -1,0 +1,15 @@
+/* Inside productCart.css or your global styles */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
