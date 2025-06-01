@@ -1,0 +1,38 @@
+.profile-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.profile-card {
+  background-color:lightgrey;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 600px) {
+  .profile-container {
+    padding: 10px;
+  }
+
+  .profile-heading {
+    font-size: 1.5rem;
+  }
+
+  .profile-card p {
+    font-size: 1rem;
+  }
+}
