@@ -22,14 +22,15 @@ mongoose.connect(process.env.MONGO_URI)
        description: "Amber Wood is a stunning warm, woody-ambery fragrance for men and women",
        price: 999.99,
       images: [
-        "images/amber.jpeg",
+        "images/amber.jpg",
+       
        ],
       },
 
       {
         name: "Rose Essence",
         description: "A delicate floral perfume with a long-lasting scent.",
-        price: 29.99,
+        price: 789.99,
         images: [
           "images/rose-essence.jpeg",
         ],
@@ -59,6 +60,7 @@ mongoose.connect(process.env.MONGO_URI)
           "images/denver.jpg",       
         ],
       },
+
     ]);
   })
   .then(() => {
